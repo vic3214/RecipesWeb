@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Domain\Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="SQL\.idea\.gitignore" />
+      <Content Include="SQL\.idea\aws.xml" />
+      <Content Include="SQL\.idea\encodings.xml" />
+      <Content Include="SQL\.idea\indexLayout.xml" />
+      <Content Include="SQL\.idea\projectSettingsUpdater.xml" />
+      <Content Include="SQL\.idea\workspace.xml" />
+    </ItemGroup>
+
+</Project>

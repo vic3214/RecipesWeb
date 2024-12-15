@@ -1,0 +1,63 @@
+.footer-card {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  margin-top: 2rem;
+  border: none;
+  max-height:40px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .footer-section {
+    flex: 1 1 20%;
+    margin: 1rem;
+
+    h4 {
+      margin-bottom: 1rem;
+      font-size: 1.2rem;
+    }
+
+    p, ul {
+      margin: 0.5rem 0;
+      line-height: 1.5;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin: 0.5rem 0;
+      }
+
+      a {
+        text-decoration: none;
+        color: #007bff;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .social-buttons {
+      display: flex;
+
+      button {
+        margin-right: 0.5rem;
+      }
+    }
+
+    .newsletter {
+      display: flex;
+      align-items: center;
+
+      .newsletter-input {
+        flex: 1;
+      }
+    }
+  }
+}

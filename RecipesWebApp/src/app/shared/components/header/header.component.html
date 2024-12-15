@@ -1,0 +1,12 @@
+<div class="card">
+  <p-tabs value="/dashboard">
+    <p-tablist>
+      @for (item of items; track item.route) {
+        <p-tab [value]="item.route" [routerLink]="item.route">
+          <i [class]="item.icon"></i>
+          <span>{{ item.label }}</span>
+        </p-tab>
+      }
+    </p-tablist>
+  </p-tabs>
+</div>
